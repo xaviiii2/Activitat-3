@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pedido de pizza</title>
+</head>
+
+<body>
+
+<h3>Pedido de pizza</h3>
+
+<form>
+
+<fieldset>
+    <legend>La pizza</legend>
+
+    <p>Ingredientes</p>
+
+    <input type="checkbox" name="ingredientes" value="queso"> Queso<br>
+    <input type="checkbox" name="ingredientes" value="pimiento"> Pimiento<br>
+    <input type="checkbox" name="ingredientes" value="cebolla"> Cebolla<br>
+
+    <p>Tamaño</p>
+
+    <input type="radio" name="tamano" value="pequena"> Pequeña<br>
+    <input type="radio" name="tamano" value="mediana"> Mediana<br>
+    <input type="radio" name="tamano" value="grande"> Grande
+
+</fieldset>
+
+<fieldset>
+    <legend>Datos de entrega</legend>
+
+    Nombre <input type="text" name="nombre"><br>
+    Dirección <input type="text" name="direccion"><br>
+    Teléfono <input type="text" name="telefono"><br>
+
+    Instrucciones especiales<br>
+    <textarea name="instrucciones" rows="10" cols="35"></textarea>
+
+</fieldset>
+
+<fieldset>
+    <legend>Método de pago</legend>
+
+    <select name="pago">
+        <option>Efectivo</option>
+        <option>Tarjeta</option>
+    </select>
+
+</fieldset>
+
+<input type="submit" value="Ok">
+
+</form>
+
+</body>
+</html>
